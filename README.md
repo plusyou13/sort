@@ -1,15 +1,2 @@
-# -
-插入排序
-
-基本操作就是将一个数据插入到已经排好序的有序数据中，从而得到一个新的、个数加一的有序数据，算法适用于少量数据的排序；首先将第一个作为已经排好序的，然后每次从后的取出插入到前面并排序；
-
-时间复杂度：O(n²)
-
-空间复杂度：O(1)
-
-稳定性：稳定
-
-
-
-
-
+# heapSort
+<span style="background-color: rgb(216, 216, 216);">基本思想：<br></span><p><span style="background-color: rgb(216, 216, 216);">1.将待排序列构造成大根堆或者小根堆。</span></p><p><span style="background-color: rgb(216, 216, 216);">2.此时，整个排序的序列的最大值就是堆顶的根节点，&nbsp;&nbsp; ，就是将其与末尾元素交换，此时末尾元素就是最大值。</span></p><p><span style="background-color: rgb(216, 216, 216);">3.然后将剩下的n-1个序列重新构造一个堆，这样就会得到n个元素的最大值</span></p><p><span style="background-color: rgb(216, 216, 216);">4.反复如此，就可以得到一个有序序列啦~</span></p>
