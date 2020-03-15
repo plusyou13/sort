@@ -1,6 +1,6 @@
 # 十大排序
 
-![](C:\Users\lic\Desktop\demo\sort\Snipaste_2020-03-15_18-10-09.png)
+![Snipaste_2020-03-15_18-10-09.png](C:\Users\lic\Desktop\demo\sort\Snipaste_2020-03-15_18-10-09.png)
 
 ![Snipaste_2020-03-15_18-10-27](C:\Users\lic\Desktop\demo\sort\Snipaste_2020-03-15_18-10-27.png)
 
