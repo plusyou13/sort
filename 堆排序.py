@@ -1,4 +1,4 @@
-import random
+from randomNum import get_randomNumber
 def HeapAdjust(arr, start, end):
     root = start    
     while True:
@@ -34,12 +34,6 @@ def HeapSort(arr):
         arr[0], arr[end] = arr[end], arr[0]
         HeapAdjust(arr, 0, end - 1)            #  注意start=0
 
-def get_randomNumber(num):  
-    lists=[]  
-    i=0  
-    for i in range(num):  
-        lists.append(random.randint(0,100))  
-    return lists
 
 if __name__ == "__main__": 
     List = get_randomNumber(20)
